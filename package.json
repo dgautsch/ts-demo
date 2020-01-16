@@ -1,0 +1,17 @@
+{
+  "name": "ts-sandbox",
+  "version": "1.0.0",
+  "description": "A sandbox to practice TypeScript",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "TypeScript"
+  ],
+  "author": "Dan Gautsch",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.7.4"
+  }
+}
