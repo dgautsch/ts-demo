@@ -2,10 +2,9 @@
 // - Write an interface for the products collection called Products.
 // - Write an interface that extends the product interface and adds the property
 //   `fullyReserved` as a boolean. Call this interface ReservedProducts.
-// - Caclulate if the item is fullyReserved by checking if the reserved is less than
-//   the directStock.
+// - Caclulate if the item is fullyReserved by comparing reserved and directStock.
 // - If the reserved is greater than the directStock set fullyReserved to `false`.
-// - Return an new collection of type ReservedProducts
+// - Return a new collection of type ReservedProducts
 // - Invoke your function and output the results via console.log
 
 const products = [{
