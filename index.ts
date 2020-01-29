@@ -38,24 +38,3 @@ const products = [{
     reserved: 10,
     directStock: 99,
 }]
-
-interface Product {
-    color: string;
-    reserved: number;
-    directStock: number;
-}
-
-interface ReservedProduct extends Product {
-    fullyReserved: boolean;
-}
-
-function getFullyReserved(products: Product[]): ReservedProduct[] {
-    return products.map<ReservedProduct>((product: Product) => {
-        return {
-            ...product,
-            fullyReserved: product.reserved > product.directStock
-        }
-    })
-}
-
-console.log(getFullyReserved(products));
