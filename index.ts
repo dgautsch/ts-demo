@@ -4,7 +4,7 @@
 //   `fullyReserved` as a boolean. Call this interface ReservedProducts.
 // - Caclulate if the item is fullyReserved by checking if the reserved is less than
 //   the directStock.
-// - If the reserved is greater than the directStock set fullyReserved to `true`.
+// - If the reserved is greater than the directStock set fullyReserved to `false`.
 // - Return an new collection of type ReservedProducts
 // - Invoke your function and output the results via console.log
 
