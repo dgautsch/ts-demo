@@ -115,3 +115,13 @@ function getName(n: NameOrResolver): Name {
 console.log(getName(() => {
     return 'Dan';
 }))
+
+// ## Generics
+function identity<T>(arg: T) {
+    return arg;
+}
+
+let output = identity<string>("myString");  // type of output will be 'string'
+
+// with type inference
+let output2 = identity("myString");  // type of output will be 'string'
